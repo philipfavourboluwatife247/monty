@@ -1,4 +1,4 @@
-## Monty Interpreter Team Project
+## :snake: Monty Interpreter Team Project
 
 ## PROJECT DESCRIPTION
 
