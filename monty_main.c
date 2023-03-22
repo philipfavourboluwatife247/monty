@@ -4,6 +4,7 @@
  * File: monty_main.c
  */
 #include "monty.h"
+#include <string.h>
 #include <stdio.h>
 #define _GNU_SOURCE
 #include <stdlib.h>

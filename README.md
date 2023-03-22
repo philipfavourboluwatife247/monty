@@ -1,27 +1,31 @@
 ## Monty Interpreter Team Project
 
 ## PROJECT DESCRIPTION
+
 A language interpreter made in the C programming language to manage stacks and queues (LIFO and FIFO). The aim is to interpret Monty bytecodes files. Monty is a language that aims to close the gap between scripting and programming languages.
 
 ## Requirements
-*Allowed editors: vi, vim, emacs
-*All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=c89
-*All your files should end with a new line
-*A README.md file, at the root of the folder of the project is mandatory
-*Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
-*You allowed to use a maximum of one global variable
-*No more than 5 functions per file
-*You are allowed to use the C standard library
-*The prototypes of all your functions should be included in your header file called monty.h
-*Don’t forget to push your header file
-*All your header files should be include guarded
-*You are expected to do the tasks in the order shown in the project
+* Allowed editors: vi, vim, emacs
+* All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=c89
+* All your files should end with a new line
+* A README.md file, at the root of the folder of the project is mandatory
+* Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+* You allowed to use a maximum of one global variable
+* No more than 5 functions per file
+* You are allowed to use the C standard library
+* The prototypes of all your functions should be included in your header file called monty.h
+* Don’t forget to push your header file
+* All your header files should be include guarded
+* You are expected to do the tasks in the order shown in the project
 
 ## Compilation
-*Your code will be compiled this way:gcc -Wall -Werror -Wextra -pedantic -std=c89 *.c -o monty
-
+* Your code will be compiled this way:
+```
+$ gcc -Wall -Werror -Wextra -pedantic -std=c89 *.c -o monty
+```
 ## ALLOWABLE OPCODES AND WHAT THEY DO
 | **OPCODES**	| **WHAT THEY DO**
+| --- |   | --- |	
 | push		| add element to the 'top' of stack and 'end' of queue
 | pop		| remove element from 'top' of stack and 'end' of queue
 | pall		| print every member of the structure
@@ -60,6 +64,8 @@ A language interpreter made in the C programming language to manage stacks and q
 
 `$`
 
+---
+
 `$ cat opcodetestfile.m`
 
 `push 1`
@@ -95,5 +101,6 @@ Exits with status `EXIT_FAILURE`
 All files have been written in the `Betty Style`
 
 ## Authors
-| Philip Favour B. | Github uniquefavour2002@gmail.com  
-| Henry Ikegwuonu - Github ikegwuonuhenry25@gmail.com**
+| --- |		| --- |
+| Philip Favour B. | [Github](https://github.com/philipfavourboluwatife247) [Email](uniquedivinefavour2002@gmail.com)
+| Henry Ikegwuonu  | [Github](https://github.com/Hoffdl) [Email](ikegwuonuhenry25@gmail.com)
